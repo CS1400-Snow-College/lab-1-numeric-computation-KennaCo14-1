@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-1-numeric-computation-KennaCo14-1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b37ee7cbd301d5292c77088d7c7a84f6f38fd8ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9ac646cc3bd341a1c48cdc698db4ce84df8f0f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-1-numeric-computation-KennaCo14-1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-1-numeric-computation-KennaCo14-1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
