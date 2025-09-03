@@ -90,3 +90,8 @@ Console.WriteLine(thirdA / thirdB);
 decimal decA = 1.0M;
 decimal decB = 3.0M;
 Console.WriteLine(decA / decB);
+
+//Step 6: Challenge
+double radius = 2.5;
+double area = Math.PI * radius * radius;
+Console.WriteLine(area);
