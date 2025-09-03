@@ -95,3 +95,8 @@ Console.WriteLine(decA / decB);
 double radius = 2.5;
 double area = Math.PI * radius * radius;
 Console.WriteLine(area);
+
+double rad = 2.5;
+double diameter = rad * rad;
+double pi = 3.14159;
+Console.WriteLine(pi * diameter);
