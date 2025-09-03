@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-//Step 1: Explore Integer Math
+//Step 1
 Console.WriteLine("Integer Math");
 int a = 18;
 int b = 6;
@@ -16,7 +16,7 @@ Console.WriteLine(e);
 int f = a * b;
 Console.WriteLine(f);
 
-//Step 2: Order of Operations
+//Step 2
 
 Console.WriteLine("Order of Operations");
 int opA = 5;
@@ -34,7 +34,7 @@ Console.WriteLine(opF);
 int opG = (opA + opB) / opC;
 Console.WriteLine(opG);
 
-//Step 3: Precision and Limits
+//Step 3
 Console.WriteLine("Integer Precision and Limits");
 
 int precA = 7;
@@ -54,7 +54,7 @@ Console.WriteLine($"An example of overflow: {extraMax}");
 
 
 
-//Step 4: Double Type
+//Step 4
 Console.WriteLine("Double Type");
 
 double twoA = 5;
@@ -75,3 +75,18 @@ Console.WriteLine($"The range of double is {twoMin} to {twoMax}");
 
 double third = 1.0 / 3.0;
 Console.WriteLine(third);
+
+//Step 5
+Console.WriteLine("Decimal Types");
+
+decimal decMin = decimal.MinValue;
+decimal decMax = decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is {decMin} to {decMax}");
+
+double thirdA = 1.0;
+double thirdB = 3.0;
+Console.WriteLine(thirdA / thirdB);
+
+decimal decA = 1.0M;
+decimal decB = 3.0M;
+Console.WriteLine(decA / decB);
