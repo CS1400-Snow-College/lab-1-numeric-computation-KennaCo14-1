@@ -51,3 +51,27 @@ Console.WriteLine($"The range of integers is {min} to {max}");
 
 int extraMax = max + 3;
 Console.WriteLine($"An example of overflow: {extraMax}");
+
+
+
+//Step 4: Double Type
+Console.WriteLine("Double Type");
+
+double twoA = 5;
+double twoB = 4;
+double twoC = 2;
+double twoD = (twoA + twoB) / twoC;
+Console.WriteLine(twoD);
+
+double twoE = 19;
+double twoF = 23;
+double twoG = 8;
+double twoH = (twoE + twoF) / twoG;
+Console.WriteLine(twoH);
+
+double twoMax = double.MaxValue;
+double twoMin = double.MinValue;
+Console.WriteLine($"The range of double is {twoMin} to {twoMax}");
+
+double third = 1.0 / 3.0;
+Console.WriteLine(third);
